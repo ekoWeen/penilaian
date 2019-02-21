@@ -1,0 +1,260 @@
+/* general */
+input[type=checkbox], input[type=radio] {
+	margin: 10px;
+}
+legend {
+	border-bottom: none;
+}
+.form-group {
+  margin-bottom: 0;
+}
+.checkbox, .radio {
+  display: inline-block;
+}
+.checkbox label, .radio label {
+  padding-left: 40px;
+}
+.content {
+  padding: 30px;
+}
+
+body, p, h6, h5, a, li {
+  font-size: 17px;
+}
+/* custom css for MTS */
+#profile label {
+	    display: block;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #0a0a0a;
+}
+#profile input {
+	    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.4375rem;
+    padding: .5rem;
+    border: 1px solid #cacaca;
+    margin: 0 0 1rem;
+    font-family: inherit;
+    font-size: 2rem;
+    color: #0a0a0a;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
+    border-radius: 0;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+    -webkit-appearance: none;
+}
+.img-circle {
+	border: 1px solid #eee;
+}
+/* heading section */
+.main-header .logo {
+	font-size: 15px;
+}
+
+.nav-form {
+	width: 15%;
+	padding-top: 10px;
+	float: left;
+}
+
+
+.nav-form .input-group {
+	position: relative;
+}
+
+.nav-form .form-control {
+	border: none;
+	left: 45px;
+}
+
+.nav-form .input-group-btn {
+	position: absolute;
+	left: 5px;
+}
+
+/* end heading section */
+
+/* Main Content on dashboard */
+/*.nav-tabs {
+	border-bottom: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,
+.nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus {
+	background-color: unset;
+	border: none;
+	color: blue;
+	text-decoration: underline;
+}*/
+.learning-card {
+	height: 450px;
+}
+.d-progress {
+	text-align: center;
+}
+.d-null {
+	background-color: transparent;
+	text-align: center;
+}
+.btn-add {
+	margin: 150px 0;
+}
+
+.d-select-materials {
+	text-align: center;
+	padding: 20px 40px;
+}
+.d-select-materials img {
+	width: 150px;
+	height: auto;
+}
+
+.d-progress table,
+.d-progress li {
+	text-align: left;
+}
+/* end dashboard main content */
+
+/* horizontal timeline */
+.timeline2 {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.li {
+  transition: all 200ms ease-in;
+}
+
+.timestamp {
+  margin-bottom: 20px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+}
+
+.status {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #D6DCE0;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+.status h4 {
+  font-weight: 600;
+  margin: 0;
+    position: absolute;
+    bottom: -6px;
+    left: 8px;
+    z-index: 100;
+}
+.status:before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  transition: all 200ms ease-in;
+}
+
+.li.complete .status {
+  border-top: 2px solid #66DC71;
+}
+.li.complete .status:before {
+  background-color: #66DC71;
+  border: none;
+  transition: all 200ms ease-in;
+}
+.li.complete .status h4 {
+  color: black;
+}
+.li:last-child .status {
+	border-top: none;
+}
+@media (min-device-width: 320px) and (max-device-width: 700px) {
+  .timeline2 {
+    list-style-type: none;
+    display: block;
+  }
+
+  .li {
+    transition: all 200ms ease-in;
+    display: flex;
+    width: inherit;
+  }
+
+  .timestamp {
+    width: 100px;
+  }
+
+  .status:before {
+    left: -8%;
+    top: 30%;
+    transition: all 200ms ease-in;
+  }
+}
+.vertical .timeline2 {
+	margin: 30px auto;
+}
+.vertical .timeline2:before {
+content: none;
+}
+.vertical .timeline2>li {
+	margin: 0;
+}
+/*end horizontal timeline*/
+.center-button {
+	text-align: center;
+}
+
+/* timeline 3 */
+.timeline3 {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul.timeline3 {
+  margin: 40px 0;
+}
+
+.timeline3 .status h4 {
+  top: 20px;
+  font-size: 11px;
+  left: 0;
+}
+
+/* customizing modal */
+.modal-header .close {
+  margin: 10px 10px 0 0;
+}
+
+.table-white {
+  background-color: white;
+  color: black;
+}
+.menu-top {
+  margin-top: 30px;
+}
+.coding-result {
+  background-color: black;
+  color: white;
+}
+.pilihan {
+  width: 100%;
+}
+.pilihan button {
+  margin-bottom: 20px;
+}
